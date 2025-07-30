@@ -1,5 +1,5 @@
 class Guitarra:
-    def __init__(self, marca, modelo, precio, estado = 'disponible', stock = 0):
+    def __init__(self, marca, modelo, precio, estado = 'disponible', stock = 1):
         self.__marca = marca
         self.__modelo = modelo 
         self.__precio = precio
